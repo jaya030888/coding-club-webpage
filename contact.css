@@ -1,0 +1,150 @@
+
+*{
+      
+    padding-bottom: 5px;
+    font-family: "gelasio","Poppins", sans-serif;
+
+}
+
+header{
+       padding: 5px;
+       display:inline-block;
+       width: 100%; 
+       background: #161b22;
+       box-shadow: 0 0 25px rgba(88, 166, 255, 0.1);
+}
+body{
+    background-color: #0d1117;
+      color:#161b22;
+      font-size: large;
+}
+
+#logo{
+    background-color: #161b22; 
+    display: flex;
+}
+
+#syntaxlogo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    
+
+}
+
+#clubname{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #6523a2;
+    text-align: left;
+    display: inline-block;
+    background-color: #161b22; 
+    font-family:'Times New Roman', Times, serif,sans-serif;
+    padding-right: 470px;
+}
+
+.nav{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+    background-color: #161b22;
+    padding-right: 30px;
+    
+}
+
+.bar{
+    background-color: #161b22;
+    display: inline-block;
+    
+}
+
+.navbar{
+    border: 2px solid black;
+    margin: 0%;
+    padding: 0%;
+    background-color: #161b22;
+    display: flex;
+    width: 100%;
+ align-items: center;
+    
+}
+
+.links{
+    display: inline-block;
+    background-color: #161b22;
+    text-decoration: none;
+    color:#c9d1d9;
+    font-size: 15px;
+    
+}
+
+
+ .links:hover {
+      color: #ffffff;
+      border-bottom: 2px solid #002fff;
+    }
+
+
+footer{
+    padding-top: 10px;
+    background-color: #161b22;
+     box-shadow: 0 0 25px rgba(88, 166, 255, 0.1);
+    text-align: center;
+    color: #c9d1d9;
+}
+
+
+.collaborate{
+    border: 3px double black;
+     box-shadow: 0 0 5px rgb(184, 141, 196);
+     margin: 1rem 30rem;
+     border-radius: 10px;
+      padding: 2rem 2rem;
+    
+      background: url("https://i.pinimg.com/736x/a2/be/77/a2be778cac94e9d39e705efb7f89d296.jpg");
+      max-width: 60rem;
+      color: white;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      object-position: center;
+      transition: 1sec ease;
+}
+
+.collaborate:hover{
+  
+     box-shadow: 5px 5px 15px rgb(184, 141, 196);
+     
+    
+}
+
+
+
+
+.footerlinks{
+    text-decoration: none;
+    color: #c9d1d9;
+}
+
+.footerlinks:hover{
+    color: #002fff;
+      border-bottom: 2px solid #002fff;
+}
+
+
+
+
+.h2{
+    font-family: "gelasio";
+    text-align: center;
+    color: #8c45f1;
+    font-size: 40px;
+    border: 1px solid black;
+    background-color: #e6edf3;
+    width:fit-content;
+    margin: 2rem 1rem;
+    padding: 3px;
+    background:linear-gradient(rgb(154, 153, 153) white);
+}
